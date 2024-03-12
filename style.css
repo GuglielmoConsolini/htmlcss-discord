@@ -71,6 +71,7 @@ section > div {
                /* ***STILE MAIN**** */
 
                /* PRIMA/SECONDA/TERZA SEZIONE */
+
 .sezione{
     
     display: flex;
@@ -115,6 +116,7 @@ h2{
     max-height: 1200px;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .contenitore-stelle{
@@ -126,6 +128,15 @@ h3{
     text-align: center;
     font-size: 30px;
     margin: 2rem 0;
+}
+
+.download.due{
+    background-color: #7289da;
+    color: white;
+    border-radius: 20px;
+    padding: 10px; 
+    text-align: center;
+
 }
          /* *******STILE FOOTER***** */
 
@@ -139,16 +150,25 @@ h3{
     padding-top: 0.5rem;
 }
 
+.ita::after{
+    content: ' \25BC';
+}
+
 .red{
     height: 90%;
     width: calc(24% - 2rem);
-    background-color: red;
+    background-color: black;
+    text-align: left;
+    color: white;
+    padding: 2rem;
 }
 
 .aqua{
     height: 90%;
     width: calc(13% - 1rem);
-    background-color: aqua;
+    background-color: black;
+    color: white;
+    padding: 3rem 5 rem;
 }
                  /* **SECONDA SEZIONE FOOTER** */
 .footer2{
@@ -156,10 +176,11 @@ h3{
     justify-content: center;
     background-color: black;
     padding-top: 1rem;
+    margin-top: 3px;
 }
 
 .barra-pulsanti{
-    background-color: aquamarine;
+    background-color: black;
     padding: 1rem 0;
     width: calc(80% - 10rem);
     display: flex;
@@ -170,8 +191,9 @@ button{
     background-color: pink;
     border: 1px dashed black;
 }
-hr{
-    color: white;
+
+footer{
+    background-color:#7289da ;
 }
 
 
